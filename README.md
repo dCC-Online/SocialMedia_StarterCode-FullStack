@@ -18,9 +18,11 @@ Starter code for Social Media with both front/backend and working authentication
 9. Import the `Social Media Starter.postman_collection.json` file into Postman. For the URL of each request, make sure to change the port number to the one you set in your `.env` file.
 10. Be sure to watch the walkthrough video for how to run each test in Postman to verify your server is set up correctly!
 
+> ‼️ NOTE: BE SURE TO .gitignore the `.env` file in your backend before committing to GitHub!
+
 ### For the `frontend` React application
 1. Change directory into the frontend folder: `cd frontend`. You may need to run the `cd ..` command to get back to your root directory first.
 2. Run the `npm install` command to install Node dependencies.
 3. Inside of `src/context/AuthContext.js`, find the `BASE_URL` variable (line 11) and make sure the port number of the URL matches the port number you set up in your backend.
 
-## NOTE: BE SURE TO .gitignore the `.env` file in your backend before committing to GitHub!
+
