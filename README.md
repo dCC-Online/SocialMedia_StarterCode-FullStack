@@ -22,3 +22,5 @@ Starter code for Social Media with both front/backend and working authentication
 1. Change directory into the frontend folder: `cd frontend`. You may need to run the `cd ..` command to get back to your root directory first.
 2. Run the `npm install` command to install Node dependencies.
 3. Inside of `src/context/AuthContext.js`, find the `BASE_URL` variable (line 11) and make sure the port number of the URL matches the port number you set up in your backend.
+
+## NOTE: BE SURE TO .gitignore the `.env` file in your backend before committing to GitHub!
